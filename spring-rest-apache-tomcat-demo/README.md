@@ -40,15 +40,15 @@ mkdir -p ~/multiply-doubles
 
 Run a database insertion test:<br>  
 ```
-~/apache-jmeter-5.6.2/bin/jmeter -n -t ~/virtual-thread-test-db.jmx -l ~/results-files/results-"`date "+%Y.%m.%d-%H.%M.%S"`".file -e -o ~/database-inserts/standard-threads
+~/apache-jmeter-5.6.2/bin/jmeter -n -t ~/virtual-thread-test-db.jmx -l ~/results-files/results-"`date "+%Y.%m.%d-%H.%M.%S"`".file -e -o ~/database-inserts
 ```
 
 Run a page retrieval test:<br>  
 ```
-~/apache-jmeter-5.6.2/bin/jmeter -n -t ~/virtual-thread-test-nginx.jmx -l ~/results-files/results-"`date "+%Y.%m.%d-%H.%M.%S"`".file -e -o ~/page-retrieval/standard-threads
+~/apache-jmeter-5.6.2/bin/jmeter -n -t ~/virtual-thread-test-nginx.jmx -l ~/results-files/results-"`date "+%Y.%m.%d-%H.%M.%S"`".file -e -o ~/page-retrieval
 ```
 
 Run a multiply doubles test:
 ```
-~/apache-jmeter-5.6.2/bin/jmeter -n -t ~/virtual-thread-test-multiply-doubles.jmx -l ~/results-files/results-"`date "+%Y.%m.%d-%H.%M.%S"`".file -e -o ~/multiply-doubles/standard-threads
+~/apache-jmeter-5.6.2/bin/jmeter -n -t ~/virtual-thread-test-multiply-doubles.jmx -l ~/results-files/results-"`date "+%Y.%m.%d-%H.%M.%S"`".file -e -o ~/multiply-doubles
 ```
