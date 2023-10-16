@@ -33,12 +33,9 @@ NOTE: You will need to change HTTPSampler.domain on LINE 33 of EACH .jmx script 
 1) Create a directory that will store your test results:
 ```
 mkdir ~/results-files
-mkdir -p ~/database-inserts/standard-threads
-mkdir -p ~/database-inserts/virtual-threads
-mkdir -p ~/page-retrievals/standard-threads
-mkdir -p ~/page-retrievals/virtual-threads
-mkdir -p ~/multiply-doubles/standard-threads
-mkdir -p ~/multiply-doubles/virtual-threads
+mkdir -p ~/database-inserts
+mkdir -p ~/page-retrievals
+mkdir -p ~/multiply-doubles
 ```
 
 Run a database insertion test:<br>  
