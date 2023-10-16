@@ -12,7 +12,7 @@ Remember to modify useVirtualThreads (default is false) in Tomcat's server.xml o
                useVirtualThreads="false/true"
                redirectPort="8443" />
 
-Always remember to set JAVA_HOME:
+Always remember to set ```JAVA_HOM```E:
 ```
 export JAVA_HOME=/home/rocky/jdk-21
 ```
